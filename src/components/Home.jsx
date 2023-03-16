@@ -24,7 +24,7 @@ const Home = () => {
         <button onClick={() => setCount(count - 1)}>-</button>
       </div>
       <div>
-        Llevas aquí {segundos} segundos.
+        Llevas aquí {segundos} segundos
       </div>
     </div>
   );
