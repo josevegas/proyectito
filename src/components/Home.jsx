@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import CompAdri from "./CompAdri/CompAdri";
 
 const Home = () => {
   const [count, setCount] = useState(0);
@@ -26,6 +27,11 @@ const Home = () => {
       <div>
         Llevas aquí {segundos} segundos.
       </div>
+      <br />
+      <hr />
+      <CompAdri />
+      <hr />
+      <br />
     </div>
   );
 };
